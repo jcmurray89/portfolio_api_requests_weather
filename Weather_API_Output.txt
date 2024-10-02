@@ -1,0 +1,59 @@
+# I'm annotating this output for the portfolio
+
+# This is the output of print(response.json(): This is the total raw data returned from the API request)
+C:\Users\joshc\PycharmProjects\pythonProject\.venv\Scripts\python.exe C:\Users\joshc\PycharmProjects\pythonProject\.venv\Scripts\Weather_API.py 
+{'location': {'name': 'Des Moines', 'region': 'Iowa', 'country': 'USA', 'lat': 41.6, 'lon': -93.54, 'tz_id': 'America/Chicago', 'localtime_epoch': 1727895625, 'localtime': '2024-10-02 14:00'}, 'current': {'last_updated_epoch': 1727894700, 'last_updated': '2024-10-02 13:45', 'temp_c': 22.2, 'temp_f': 72.0, 'is_day': 1, 'condition': {'text': 'Partly cloudy', 'icon': '//cdn.weatherapi.com/weather/64x64/day/116.png', 'code': 1003}, 'wind_mph': 17.7, 'wind_kph': 28.4, 'wind_degree': 207, 'wind_dir': 'SSW', 'pressure_mb': 1015.0, 'pressure_in': 29.98, 'precip_mm': 0.0, 'precip_in': 0.0, 'humidity': 28, 'cloud': 25, 'feelslike_c': 23.8, 'feelslike_f': 74.9, 'windchill_c': 23.0, 'windchill_f': 73.4, 'heatindex_c': 23.5, 'heatindex_f': 74.3, 'dewpoint_c': 7.9, 'dewpoint_f': 46.2, 'vis_km': 16.0, 'vis_miles': 9.0, 'uv': 6.0, 'gust_mph': 20.3, 'gust_kph': 32.7}}
+
+# I noticed we seemed to have a "dictionary of dictionaries" structure, so I asked it to tell me all the keys in the main dictionary to get our sub-dictionary names: 
+location
+current
+
+# Tested manually printing a couple of factors under "current" to verify 100% that they are accessed the way I expected.  They were. 
+Des Moines
+72.0
+
+# printed out a list of all keys under "current" (current weather) dictionary to more easily see which factors we can work with:
+last_updated_epoch
+last_updated
+temp_c
+temp_f
+is_day
+condition
+wind_mph
+wind_kph
+wind_degree
+wind_dir
+pressure_mb
+pressure_in
+precip_mm
+precip_in
+humidity
+cloud
+feelslike_c
+feelslike_f
+windchill_c
+windchill_f
+heatindex_c
+heatindex_f
+dewpoint_c
+dewpoint_f
+vis_km
+vis_miles
+uv
+gust_mph
+gust_kph
+
+# Section header:
+Now that we know our opitons, a real function test:
+
+# Output of function: 
+The current weather in Des Moines, USA : 
+
+The current temp_f is 72.0
+The current wind_mph is 17.7
+The current humidity is 28
+The current cloud is 25
+None # This printed because I did not tell the function to return anything. 
+
+# System message from PyCharm
+Process finished with exit code 0
