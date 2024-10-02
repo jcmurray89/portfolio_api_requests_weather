@@ -15,18 +15,18 @@ Then, I wrote a script using PyCharm Community edition <https://www.jetbrains.co
 *note:* valid request parameters (the string value of the key "q"): 
 
 Query parameter based on which data is sent back. It could be following: 
-Latitude and Longitude (Decimal degree) e.g: q=48.8567,2.3508 
-city name e.g.: q=Paris 
-US zip e.g.: q=10001 
-UK postcode e.g: q=SW1 
-Canada postal code e.g: q=G2J 
-metar: e.g: q=metar:
-EGLL iata:<3 digit airport code> e.g: q=iata:DXB auto:ip 
-IP lookup e.g: q=auto:ip IP address (IPv4 and IPv6 supported) e.g: q=100.0.0.1
+- Latitude and Longitude (Decimal degree) e.g: q=48.8567,2.3508 
+- city name e.g.: q=Paris 
+- US zip e.g.: q=10001 
+- UK postcode e.g: q=SW1 
+- Canada postal code e.g: q=G2J 
+- metar: e.g: q=metar:
+- EGLL iata:<3 digit airport code> e.g: q=iata:DXB auto:ip 
+- IP lookup e.g: q=auto:ip IP address (IPv4 and IPv6 supported) e.g: q=100.0.0.1
 
 ### Repository Table of Contents: 
 
-Weather_API.py - the code in a python-reader-ready format
-Weather_API - Copy.txt - backup copy of the code in a text file. 
-Weather_API_Output.txt - Output produced 10/2/2024
+- Weather_API.py - the code in a python-reader-ready format
+- Weather_API - Copy.txt - backup copy of the code in a text file. 
+- Weather_API_Output.txt - Output produced 10/2/2024
 
